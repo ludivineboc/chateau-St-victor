@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dedede;
+}
+
+p{
+    font-family: "Noto Sans", sans-serif;
+font-size: 14px;}
+
+h1 {
+    font-family: "Alice", serif;
+font-size: 50px;}
+
+h2 {font-family: "Alice", serif;}
+
+h3 {font-family: "Alice", serif;}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.spaceBetween {
+  justify-content: space-between;
+}
+
+.spaceAround {
+  justify-content: space-around;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.center {
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.w15 {
+  width: 15%;
+}
+
+.w25 {
+    width: 25%;
+}
+
+.w30 {
+  width: 30%;
+}
+
+.w50 {
+  width: 50%;
+}
+
+.w70 {
+  width: 70%;
+}
+
+.bgRed {
+  background-color: red;
+}
+
+.top100 {
+    margin-top: 100px;
+}
+/* header */
+
+.logo {
+  width: 80px;
+}
+
+.header {
+  backdrop-filter: blur(5px);
+  position: fixed;
+  background-color: rgba(133, 133, 133, 0.49);
+  width: 100%;
+  padding: 10px 0;
+  z-index: 3;
+}
+
+/*hero*/
+.hero {
+  height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.hero > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.divHero {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.divService {
+  width: 22%;
+  height: 110px;
+  background-color: rgba(68, 54, 135, 0.44);
+  text-align: center;
+  border-radius: 15px;
+  filter: drop-shadow(0px 4px 4px rgba(155, 155, 155, 0.25));
+  backdrop-filter: blur(6.5px);
+  position: relative;
+  top: -55px;
+  color: white;
+}
+
+
+/* section sticky */
+
+.sectionSticky {
+  position: relative;
+  top: 0;
+}
+
+.aside {
+  position: sticky;
+  top: 100px;
+  left: 100%;
+}
+
+/* gallerie */
+.divPhoto {
+  width: 48%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.divPhoto > img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.legend {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(68, 54, 135, 0.44);
+  color: white;
+  padding: 10px;
+}
+
+.histoireChateau {
+    position: absolute;
+    top: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 700px;
+}
