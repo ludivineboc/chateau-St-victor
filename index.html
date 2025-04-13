@@ -1,171 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chateau st victor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>chateau st victor</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-</head>
-
-<body>
-
-  <!-- header -->
-  <header class="header flex spaceAround">
-    <div class="w50 flex spaceAround alignCenter">
-      <nav class="w30">
-        <ul class="flex spaceBetween">
-          <li><a href="">Accueil</a></li>
-          <li><a href="">Histoire du château</a></li>
-        </ul>
-      </nav>
-
-      <a href="">
-        <img src="asset/logoStVictor.png" alt="" class="logo" />
-      </a>
-
-      <nav class="w30">
-        <ul class="flex spaceBetween">
-          <li><a href="">Galerie photos</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Section hero -->
-  <section class="hero">
-    <img src="asset/bg-hero.png" alt="" />
-
-    <div class="divHero w50">
-      <h1>Château de St victor</h1>
-      <p>Les traces du passé</p>
-    </div>
-  </section>
-
-  <main>
-    <!-- Section cartes des services -->
-    <section class="container flex spaceBetween sectionServices">
-      <div class="divService">
-        <span class="material-icons material-icons-outlined">
-          castle
-          </span>
-        <p>Reconstitutions</p>
-      </div>
-      <div class="divService">
-        <span class="material-icons material-icons-outlined">
-          holiday_village
-          </span>
-        <p>Locations</p>
-      </div>
-      <div class="divService">
-        <span class="material-icons material-icons-outlined">
-          music_note
-          </span>
-        <p>Concerts</p>
-      </div>
-      <div class="divService">
-        <span class="material-icons material-icons-outlined">
-          signpost
-          </span>
-        <p>Visites</p>
-      </div>
-    </section>
-
-    <!-- Section sticky -->
-
-    <section class="container flex spaceBetween ">
-
-
-      <article class="left w70">
-
-        <div class=" histoireChateau">
-          <h2>L'histoire du château</h2>
-          <p>Perché sur les hauteurs de la Loire, le Château de Saint-Victor-sur-Loire a traversé les âges, se dressant
-            comme un témoin privilégié de l’histoire de la région. Son architecture et ses murs portent les traces de
-            nombreux remaniements, reflets des périodes médiévales et modernes qui ont marqué son développement.</p>
-        </div>
-
-        <div class="flex spaceBetween">
-          <h2>Un témoignages du siècle passés</h2>
-
-          <div class="w50 divPhoto">
-            <img src="asset/imgGallerie1.png" alt="">
-            <div class="legend">
-              <p>lorem ipsum dolor - legend</p>
-            </div>
-          </div>
-
-          <div class="w50 divPhoto">
-            <img src="asset/imgGallerie2.png" alt="">
-            <div class="legend">
-              <p>lorem ipsum dolor - legend</p>
-            </div>
-          </div>
-
-          <div class="w50 divPhoto">
-            <img src="asset/imgGallerie1.png" alt="">
-            <div class="legend">
-              <p>lorem ipsum dolor - legend</p>
-            </div>
-          </div>
-
-          <div class="w50 divPhoto">
-            <img src="asset/imgGallerie2.png" alt="">
-            <div class="legend">
-              <p>lorem ipsum dolor - legend</p>
-            </div>
-          </div>
-        </div>
-
-        <div class=" ">
-          <h2>Les origines et la construction du château</h2>
-          <p>Les premières mentions du château de Saint-Victor-sur-Loire remontent au XIIᵉ siècle. Il fut édifié à
-            l’origine pour défendre la vallée de la Loire et contrôler le passage sur cet axe stratégique de la région.
-            La forteresse, construite en pierre massive, se composait à l'époque d'un donjon principal entouré de
-            remparts imposants. Ses premières structures ont été conçues pour résister aux conflits féodaux qui
-            agitaient la région.
-
-            Le château a longtemps servi de bastion défensif pour les seigneurs de Saint-Victor, qui contrôlaient les
-            alentours et protégeaient les populations locales. Son emplacement dominant permettait d’anticiper les
-            éventuelles attaques venant des vallées environnantes, en faisant un point d'observation stratégique et un
-            refuge en temps de guerre.</p>
-        </div>
-
-      </article>
-
-      <aside class="right">
-
-        <nav class="sticky">
-                    <h3>Articles récents</h3>
-          <ul>
-            <li>Animations au château</li>
-            <li>Jardin participatif</li>
-            <li>Collecte pour la préservation du territoire</li>
-            <li>Exposition d’art “du micro au macro” </li>
-            <li>Aménagement du pigeonnier</li>
-            <li>Visite de la tour au château St victor</li>
+  <body>
+    <!-- header -->
+    <header class="header flex spaceAround">
+      <div class="w50 flex spaceAround alignCenter">
+        <nav class="w30">
+          <ul class="flex spaceBetween">
+            <li><a href="">Accueil</a></li>
+            <li><a href="">Histoire du château</a></li>
           </ul>
         </nav>
 
-      </aside>
+        <a href="">
+          <img src="asset/logoStVictor.png" alt="" class="logo" />
+        </a>
 
+        <nav class="w30">
+          <ul class="flex spaceBetween">
+            <li><a href="">Galerie photos</a></li>
+            <li><a href="">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <!-- Section hero -->
+    <section class="hero">
+      <img src="asset/bg-hero.png" alt="" />
+
+      <div class="divHero w50">
+        <img src="asset/logoBig.png" alt="">
+        <h1>Château de St victor</h1>
+        <p>Les traces du passé</p>
+      </div>
     </section>
 
-    <!-- section visite 360 -->
+    <main>
 
-    <section class="container">
+      <img src="asset/filligrane.png" alt="" class="filigrane">
+      <!-- Section cartes des services -->
+      <section class="container flex spaceBetween sectionServices">
+        <div class="divService">
+          <span class="material-icons material-icons-outlined"> castle </span>
+          <p>Reconstitutions</p>
+        </div>
+        <div class="divService">
+          <span class="material-icons material-icons-outlined">
+            holiday_village
+          </span>
+          <p>Locations</p>
+        </div>
+        <div class="divService">
+          <span class="material-icons material-icons-outlined">
+            music_note
+          </span>
+          <p>Concerts</p>
+        </div>
+        <div class="divService">
+          <span class="material-icons material-icons-outlined"> signpost </span>
+          <p>Visites</p>
+        </div>
+      </section>
 
-      <h2>Visite virtuelle du chateau</h2>
-      <h3>Un cadre majestueux et calme pour tous vos événements</h3>
+      <!-- Section sticky -->
 
-      <iframe src="http://www.chateau-saint-victor.com/virtual_tour/chateau-stvictor-1.html" frameborder="0"></iframe>
+      <section class="container flex spaceBetween">
+        <article class="left w70">
+          <!-- histoire du chateau -->
+          <div class="histoireChateau top80">
+            <h2>L'histoire du château</h2>
+            <p>
+              Perché sur les hauteurs de la Loire, le Château de
+              Saint-Victor-sur-Loire a traversé les âges, se dressant comme un
+              témoin privilégié de l’histoire de la région. Son architecture et
+              ses murs portent les traces de nombreux remaniements, reflets des
+              périodes médiévales et modernes qui ont marqué son développement.
+            </p>
+          </div>
 
-    </section>
-  </main>
-</body>
+          <!-- temoignage du siecle -->
+          <div class="flex spaceBetween top80">
+            <h2>Un témoignages du siècle passés</h2>
 
+            <div class="w50 divPhoto">
+              <img src="asset/imgGallerie1.png" alt="" />
+              <div class="legend">
+                <p>lorem ipsum dolor - legend</p>
+              </div>
+            </div>
+
+            <div class="w50 divPhoto">
+              <img src="asset/imgGallerie2.png" alt="" />
+              <div class="legend">
+                <p>lorem ipsum dolor - legend</p>
+              </div>
+            </div>
+
+            <div class="w50 divPhoto">
+              <img src="asset/imgGallerie1.png" alt="" />
+              <div class="legend">
+                <p>lorem ipsum dolor - legend</p>
+              </div>
+            </div>
+
+            <div class="w50 divPhoto">
+              <img src="asset/imgGallerie2.png" alt="" />
+              <div class="legend">
+                <p>lorem ipsum dolor - legend</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- origines de la construction -->
+          <div class="top80">
+            <h2>Les origines et la construction du château</h2>
+            <p>
+              Les premières mentions du château de Saint-Victor-sur-Loire
+              remontent au XIIᵉ siècle. Il fut édifié à l’origine pour défendre
+              la vallée de la Loire et contrôler le passage sur cet axe
+              stratégique de la région. La forteresse, construite en pierre
+              massive, se composait à l'époque d'un donjon principal entouré de
+              remparts imposants. Ses premières structures ont été conçues pour
+              résister aux conflits féodaux qui agitaient la région. Le château
+              a longtemps servi de bastion défensif pour les seigneurs de
+              Saint-Victor, qui contrôlaient les alentours et protégeaient les
+              populations locales. Son emplacement dominant permettait
+              d’anticiper les éventuelles attaques venant des vallées
+              environnantes, en faisant un point d'observation stratégique et un
+              refuge en temps de guerre.
+            </p>
+          </div>
+        </article>
+
+        <aside class="right w25 top80">
+          <nav class="sticky">
+            <h3>Articles récents</h3>
+            <ul>
+              <li><a href="">Animations au château</a></li>
+              <li><a href="">Jardin participatif</a></li>
+              <li><a href="">Collecte pour la préservation du territoire</a></li>
+              <li><a href="">Exposition d’art “du micro au macro</a></li>
+              <li><a href="">Aménagement du pigeonnier</a></li>
+              <li><a href="">Visite de la tour au château St victor</a></li>
+            </ul>
+          </nav>
+        </aside>
+      </section>
+
+      <!-- section visite 360 -->
+
+      <section class="container top80 sectionVisite360">
+        <h2>Visite virtuelle du chateau</h2>
+        <h3>Un cadre majestueux et calme pour tous vos événements</h3>
+
+        <iframe
+          src="http://www.chateau-saint-victor.com/virtual_tour/chateau-stvictor-1.html"
+          frameborder="0"
+        ></iframe>
+      </section>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="top80">
+      <div class="container flex spaceBetween alignCenter">
+        <!-- left -->
+        <div class="w50">
+          <div class="top20">
+            <p>
+              All. des Remparts <br> <br>
+              42230 Saint-Étienne
+            </p>
+          </div>
+
+          <div class="top20">
+            <p>04 77 90 49 98</p>
+
+            <p>contact.chateau-st-victor@gmail.com</p>
+          </div>
+
+
+        </div>
+
+        <!-- right -->
+
+        <div class="flex w50">
+          <ul class="w30">
+            <li><a href="" class="white">À propos</a></li>
+            <li><a href="" class="white">Contacts</a></li>
+            <li><a href="" class="white">Le musée</a></li>
+            <li><a href="" class="white">Les services</a></li>
+          </ul>
+
+          <ul class="w30">
+            <li><a href="" class="white">Facebook</a></li>
+            <li><a href="" class="white">Twitter</a></li>
+            <li><a href="" class="white">Linkedin</a></li>
+            <li><a href="" class="white">Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
